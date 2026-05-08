@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chely Modas - Moda Feminina</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Chely Modas</div>
+    <nav class="main-nav">
+      <a href="#home">Início</a>
+      <a href="#novidades">Novidades</a>
+      <a href="#colecoes">Coleções</a>
+      <a href="#checkout">Checkout</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <h1>Chely Modas</h1>
+      <p>Descubra a coleção feminina mais vibrante com looks cheios de estilo, conforto e atitude.</p>
+      <a class="btn btn-primary" href="#novidades">Ver Novidades</a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80" alt="Moda feminina Chely Modas" />
+      </div>
+      <div class="highlight-card">
+        <h2>Novas Tendências</h2>
+        <p>Vestidos, blusas, conjuntos e acessórios para brilhar em qualquer ocasião.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="novidades" class="section section-products">
+    <div class="section-header">
+      <h2>Novidades</h2>
+      <p>Explore peças cheias de personalidade e ready-to-wear.</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-button active" data-category="todas">Todas</button>
+      <button class="tab-button" data-category="vestidos">Vestidos</button>
+      <button class="tab-button" data-category="conjuntos">Conjuntos</button>
+      <button class="tab-button" data-category="acessorios">Acessórios</button>
+      <button class="tab-button" data-category="blusas">Blusas</button>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card" data-category="vestidos">
+        <div class="product-image image-dress-1">
+          <span class="product-badge">Novo</span>
+          <img src="https://images.unsplash.com/photo-1524594154908-2b630c7f26f2?auto=format&fit=crop&w=800&q=80" alt="Vestido floral" />
+        </div>
+        <div class="product-info">
+          <h3>Vestido Floral</h3>
+          <p class="price">R$ 189,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+            <option>GG</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Rosa</option>
+            <option>Verde</option>
+            <option>Azul</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="conjuntos">
+        <div class="product-image image-set-1">
+          <span class="product-badge badge-offer">Oferta</span>
+          <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="Conjunto chic" />
+        </div>
+        <div class="product-info">
+          <h3>Conjunto Chic</h3>
+          <p class="price">R$ 219,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Bege</option>
+            <option>Preto</option>
+            <option>Branco</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="blusas">
+        <div class="product-image image-top-1">
+          <span class="product-badge">Novo</span>
+          <img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5d7?auto=format&fit=crop&w=800&q=80" alt="Blusa estampada" />
+        </div>
+        <div class="product-info">
+          <h3>Blusa Estampada</h3>
+          <p class="price">R$ 99,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Vermelho</option>
+            <option>Amarelo</option>
+            <option>Preto</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="acessorios">
+        <div class="product-image image-accessory-1">
+          <span class="product-badge badge-offer">Edição Limitada</span>
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80" alt="Bolsa trend" />
+        </div>
+        <div class="product-info">
+          <h3>Bolsa Trend</h3>
+          <p class="price">R$ 129,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>Único</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Caramelo</option>
+            <option>Preto</option>
+            <option>Branco</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="vestidos">
+        <div class="product-image image-dress-2">
+          <span class="product-badge">Novo</span>
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Vestido neon" />
+        </div>
+        <div class="product-info">
+          <h3>Vestido Neon</h3>
+          <p class="price">R$ 159,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Neon</option>
+            <option>Roxo</option>
+            <option>Azul</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="conjuntos">
+        <div class="product-image image-set-2">
+          <span class="product-badge">Sale</span>
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Conjunto casual" />
+        </div>
+        <div class="product-info">
+          <h3>Conjunto Casual</h3>
+          <p class="price">R$ 179,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Rosa</option>
+            <option>Cinza</option>
+            <option>Marrom</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="blusas">
+        <div class="product-image image-top-2">
+          <span class="product-badge badge-hot">Mais Vendido</span>
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80" alt="Body elegante" />
+        </div>
+        <div class="product-info">
+          <h3>Body Elegante</h3>
+          <p class="price">R$ 109,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>PP</option>
+            <option>P</option>
+            <option>M</option>
+            <option>G</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Preto</option>
+            <option>Vinho</option>
+            <option>Branco</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="acessorios">
+        <div class="product-image image-accessory-2">
+          <span class="product-badge">Novo</span>
+          <img src="https://images.unsplash.com/photo-1490367532201-b9bc1dc483f6?auto=format&fit=crop&w=800&q=80" alt="Brincos lux" />
+        </div>
+        <div class="product-info">
+          <h3>Brincos Lux</h3>
+          <p class="price">R$ 49,90</p>
+          <label>Tamanho</label>
+          <select class="size-select">
+            <option>Único</option>
+          </select>
+          <label>Cor</label>
+          <select class="color-select">
+            <option>Dourado</option>
+            <option>Prateado</option>
+          </select>
+          <button class="btn btn-secondary add-button">Adicionar</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="colecoes" class="section section-features">
+    <div class="feature-card feature-gradient">
+      <h2>Estilo para Todas</h2>
+      <p>Looks versáteis para festa, trabalho e dia a dia com a qualidade Chely Modas.</p>
+      <a class="btn btn-outline" href="#novidades">Confira</a>
+    </div>
+    <div class="feature-card feature-dark">
+      <h2>Seleção Premium</h2>
+      <p>Peças escolhidas a dedo para compor guarda-roupas modernos com máxima praticidade.</p>
+    </div>
+  </section>
+
+  <section id="checkout" class="section section-checkout">
+    <div class="section-header">
+      <h2>Checkout</h2>
+      <p>Revise seu pedido e finalize a compra com um atendimento rápido e seguro.</p>
+    </div>
+    <div class="checkout-grid">
+      <div class="checkout-card checkout-summary-card">
+        <div class="checkout-card-header">
+          <h3>Resumo do pedido</h3>
+          <span class="checkout-badge" id="checkoutCount">0 itens</span>
+        </div>
+        <div class="checkout-items" id="checkoutItems"></div>
+        <div class="checkout-total">
+          <span>Total do pedido</span>
+          <strong id="checkoutTotal">R$ 0,00</strong>
+        </div>
+      </div>
+      <div class="checkout-card checkout-form-card">
+        <h3>Dados para entrega</h3>
+        <label>Nome completo</label>
+        <input type="text" id="customerName" placeholder="Seu nome" />
+        <label>Endereço</label>
+        <input type="text" id="customerAddress" placeholder="Rua, número, bairro" />
+        <label>Telefone ou WhatsApp</label>
+        <input type="text" id="customerPhone" placeholder="(11) 99999-9999" />
+        <label>Método de pagamento</label>
+        <select id="paymentMethod">
+          <option>Cartão de crédito</option>
+          <option>Cartão de débito</option>
+          <option>Pix</option>
+          <option>Boleto bancário</option>
+        </select>
+        <button class="btn btn-primary" id="placeOrderButton">Confirmar pedido</button>
+        <p class="checkout-note">Os dados não são enviados de fato — este é um checkout de demonstração para a loja Chely Modas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section section-contact">
+    <h2>Fale Conosco</h2>
+    <p>Quer mais novidades? Entre em contato e fique por dentro das promoções.</p>
+    <div class="contact-grid">
+      <div>
+        <strong>E-mail</strong>
+        <p>contato@chelymodas.com</p>
+      </div>
+      <div>
+        <strong>WhatsApp</strong>
+        <p>+55 81 98582-9056</p>
+      </div>
+      <div>
+        <strong>Instagram</strong>
+        <p>@chely.modas</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Chely Modas © 2026 | Moda feminina criativa e com atitude.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
